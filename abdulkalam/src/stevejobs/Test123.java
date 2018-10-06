@@ -9,7 +9,7 @@ public class Test123
 {
 	public static void main(String[] args) throws Exception
 	{
-		URL u1=new URL("http://localhost:5556/wd/hub");
+		URL u1=new URL("http://192.168.1.2:5556/wd/hub");
 		DesiredCapabilities dc1=DesiredCapabilities.chrome();
  		WebDriver driver1=new RemoteWebDriver(u1,dc1);
  		driver1.navigate().to("http://www.google.co.in");
