@@ -9,7 +9,7 @@ public class Test10
 {
 	public static void main(String[] args) throws InterruptedException 
 	{
-		//Launch website
+		//Launch site
 		System.setProperty("webdriver.chrome.driver",
 				"E:\\batch240\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
